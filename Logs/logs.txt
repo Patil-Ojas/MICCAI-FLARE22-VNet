@@ -1,0 +1,91 @@
+logs
+(These are documented in reverse order, as in the first version of model trained is the first one of this file. The best/latest is the last entry)
+
+
+Batch Size - 4
+epochs = 10
+Learning Rate - 0.001
+Optimizier - Adam
+input dims - 12*128*64
+data augmentation - False
+comments -> undefitting, needs augmentation
+
+
+Epoch [1/10], Train Dice: 0.20483, Val Dice: 0.16821
+Epoch [2/10], Train Dice: 0.20009, Val Dice: 0.16821
+Epoch [3/10], Train Dice: 0.20333, Val Dice: 0.16821
+Epoch [4/10], Train Dice: 0.20745, Val Dice: 0.16821
+Epoch [5/10], Train Dice: 0.20538, Val Dice: 0.16821
+Epoch [6/10], Train Dice: 0.20239, Val Dice: 0.16821
+Epoch [7/10], Train Dice: 0.20520, Val Dice: 0.16821
+Epoch [8/10], Train Dice: 0.21201, Val Dice: 0.16821
+Epoch [9/10], Train Dice: 0.20804, Val Dice: 0.16821
+Epoch [10/10],Train Dice: 0.20679, Val Dice: 0.16821
+Done with Training
+
+
+
+Batch Size - 2
+epochs = 5
+Learning Rate - 0.01
+Optimizier - Adam
+input dims - 12*128*64
+data augmentation - True
+comments -> underfitting
+
+Epoch [1/5], Train Dice: 0.18681, Val Dice: 0.17481
+Epoch [2/5], Train Dice: 0.18232, Val Dice: 0.16360
+Epoch [3/5], Train Dice: 0.19377, Val Dice: 0.18707
+Epoch [4/5], Train Dice: 0.19094, Val Dice: 0.14372
+Epoch [5/5], Train Dice: 0.17892, Val Dice: 0.14368
+Done with Training
+
+
+
+Batch Size - 2
+Learning Rate - 0.0001
+epochs = 5
+Optimizier - Adam
+input dims - 12*128*64
+data augmentation - True
+comments -> looking good, may turn down the lr more or increase epochs
+
+Epoch [1/5], Train Dice: 0.48793, Val Dice: 0.63580
+Epoch [2/5], Train Dice: 0.72900, Val Dice: 0.76834
+Epoch [3/5], Train Dice: 0.80675, Val Dice: 0.83983
+Epoch [4/5], Train Dice: 0.79363, Val Dice: 0.76881
+Epoch [5/5], Train Dice: 0.83433, Val Dice: 0.86433
+Done with Training
+
+
+
+
+
+Batch Size - 2
+Learning Rate - 0.00007
+epochs = 5
+Optimizier - Adam
+input dims - 12*128*64
+data augmentation - True
+comments -> seems promising, going to ramp up the epochs to 10
+
+Epoch [1/5], Train Dice: 0.42912, Val Dice: 0.53465
+Epoch [2/5], Train Dice: 0.66610, Val Dice: 0.71158
+Epoch [3/5], Train Dice: 0.76194, Val Dice: 0.74869
+Epoch [4/5], Train Dice: 0.83901, Val Dice: 0.83909
+Epoch [5/5], Train Dice: 0.85814, Val Dice: 0.88206
+Done with Training
+
+
+Batch Size - 2
+Learning Rate - 0.00007
+epochs = 10
+Optimizier - Adam
+input dims - 12*128*64
+data augmentation - True
+comments -> 
+
+
+
+
+Overall Resources Consumed - 10 hours of NVIDIA T4 GPU
