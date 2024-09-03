@@ -37,13 +37,15 @@ Setting up the dataset
 
 ## Validation and Inference
 - Plotting Dice Scores vs Epochs
+  
 ![image](https://github.com/user-attachments/assets/91ddab58-6d96-45a3-9ff2-e172df34a187)
 
 - Also, dice score for each class was as follows
-- -> Dice score for Liver: 0.2458
-- -> Dice score for Right Kidney: 0.5000
-- -> Dice score for Spleen: 0.5000
-- -> Dice score for Left Kidney: 0.5000
+  
+-> Dice score for Liver: 0.2458
+-> Dice score for Right Kidney: 0.5000
+-> Dice score for Spleen: 0.5000
+-> Dice score for Left Kidney: 0.5000
 
 ## Video
 Please Find the 2d and 3d video in main/video.
