@@ -110,26 +110,11 @@ input dims - 12*128*64
 data augmentation - new, treu
 comments-> new dice function, increase in acc
 
-
-
-
-Batch Size - 2
-Learning Rate - 0.0001
-epochs = 5
-Optimizier - Adam
-input dims - 12*128*64
-data augmentation - new, treu
-comments-> decreased lr from 0.001 to 0.0001
-
-
-Batch Size - 2
-Learning Rate - 0.0001
-epochs = 5
-Optimizier - Adam
-input dims - 12*128*64
-data augmentation - new, treu
-comments-> increased epochs to 10
-
+Epoch [1/5], Train Dice: 0.49751, Val Dice: 0.49726
+Epoch [2/5], Train Dice: 0.49772, Val Dice: 0.49804
+Epoch [3/5], Train Dice: 0.49915, Val Dice: 0.49983
+Epoch [4/5], Train Dice: 0.49980, Val Dice: 0.49996
+Epoch [5/5], Train Dice: 0.50000, Val Dice: 0.50004
 
 
 
