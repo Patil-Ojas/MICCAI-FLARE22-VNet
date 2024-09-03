@@ -43,8 +43,11 @@ Setting up the dataset
 - Also, dice score for each class was as follows
   
 -> Dice score for Liver: 0.2458
+
 -> Dice score for Right Kidney: 0.5000
+
 -> Dice score for Spleen: 0.5000
+
 -> Dice score for Left Kidney: 0.5000
 
 ## Video
